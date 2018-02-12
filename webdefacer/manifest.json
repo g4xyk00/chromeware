@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Web Defacer",
+  "description": "This extension allows the user to deface a website with a click.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "axcel.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
+
+
